@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стажировки</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container row">
+      <div class="logo">
+        Стажировки в <strong>IT</strong>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#vac">Вакансии</a></li>
+          <li><a href="#cond">Условия</a></li>
+          <li><a href="#req">Требования</a></li>
+        </ul>
+      </nav>
+      <div class="header-button">
+        <a href="#form">Подать заявку</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="hero">
+        <h1 class="main-title">Стажировка <br> в одной из лучших <br><strong> IT-компаний</strong> России</h1>
+        <div class="hero-figure">
+          <figure>
+            <img src="/images/man.png" alt="Мужчина с ноутбуком">
+          </figure>
+          <figcaption style="color: #2C5364;">
+            Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a
+              href="https://icons8.com/illustrations">Ouch!</a>
+          </figcaption>
+        </div>
+      </section>
+      <section id="vac" class="vacant">
+        <h2>Вакансии</h2>
+        <ul class="vac-list">
+          <li>DevOps</li>
+          <li>Анализ данных</li>
+          <li>Машинное обучение</li>
+          <li>Frontend</li>
+          <li>Backend</li>
+          <li>Мобильная разработка</li>
+          <li>DevOps</li>
+          <li>Анализ данных</li>
+          <li>Машинное обучение</li>
+        </ul>
+      </section>
+      <section id="cond" class="cond">
+        <h2>Условия</h2>
+        <table class="big-table">
+          <thead>
+            <th></th>
+            <th>Стажировка в течение года</th>
+            <th>Стажировка летняя</th>
+            <th>Погружение: интенсивная стажировка</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Формат работы</th>
+              <td colspan="2">✔ Очно или Дистанционно</td>
+              <td>✔ Очно</td>
+            </tr>
+            <tr>
+              <th>Дата начала</th>
+              <td>✔ Каждый месяц</td>
+              <td>✔ Май</td>
+              <td>✔ Февраль, Август</td>
+            </tr>
+            <tr>
+              <th>Оплата проезда</th>
+              <td colspan="3">✔ Да</td>
+            </tr>
+            <tr>
+              <th>Оплата проживания</th>
+              <td>✕ Нет</td>
+              <td colspan="2">✔ Да</td>
+            </tr>
+            <tr>
+              <th>Занятость</th>
+              <td colspan="2">✔ Гибкий график от 20 до 40 часов в неделю</td>
+              <td>✔ Полная 5/2</td>
+            </tr>
+            <tr>
+              <th>Продолжительность</th>
+              <td>✔ от 3 до 6 меясцев</td>
+              <td>✔ 3 месяца</td>
+              <td>✔ 1 месяц</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <th>Оплата</th>
+            <th colspan="2">до 50 000 ₽</th>
+            <th>до 100 000 ₽</th>
+          </tfoot>
+        </table>
+      </section>
+      <section id="req" class="req">
+        <h2>Требования</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi <strong>iure repellendus harum
+            laborum facilis</strong> fuga totam recusandae, eaque iste voluptas error libero quam vitae eligendi
+          perspiciatis fugit veniam distinctio velit sed qui nobis adipisci unde. Quae tempora magni <a
+            href="">architecto</a> possimus deserunt dolorum, voluptatum veniam iure impedit sed cupiditate, sit
+          repellendus ipsum placeat magnam quibusdam, perferendis iusto natus facere fugit. Ipsam tempore aliquid
+          inventore officiis quia, similique, consequatur harum explicabo, commodi laborum dolores est dignissimos quasi
+          assumenda rem? Delectus at voluptatum voluptatem nemo officia labore. Eius officiis sunt quod! Quisquam
+          dolorum, fuga <em>quidem magni voluptatem praesentium</em> necessitatibus quod numquam repudiandae?</p>
+      </section>
+      <section id="form" class="form">
+        <h2>Подать заявку</h2>
+        <form action="" method="get">
+
+          <label for="city">Ваш город</label>
+          <select name="city" id="city">
+            <option value="">--Выберите город--</option>
+            <option value="moscow">Москва</option>
+            <option value="saintpetersburg">Санк-Петербург</option>
+            <option value="kazan">Казань</option>
+            <option value="nnovgorod">Нижний Новгород</option>
+          </select>
+
+          <label for="napr">Направление</label>
+          <select name="napr" id="napr">
+            <option value="">--Выберите направление--</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Мобильная разработка">Мобильная разработка</option>
+            <option value="DevOps">DevOps</option>
+            <option value="Анализ данных">Анализ данных</option>
+            <option value="Машинное обучение">Машинное обучение</option>
+          </select>
+
+          <label for="name">Имя</label>
+          <input type="text" id="name" required>
+
+          <label for="surname">Фамилия</label>
+          <input type="text" id="surname" required>
+
+          <label for="mail">Email</label>
+          <input type="email" id="mail" required>
+
+          <label for="tel">Телефон</label>
+          <input type="tel" id="tel" required>
+
+          <label for="education">Уровень вашего образования</label>
+          <fieldset>
+            <div>
+              <label>
+                <input type="checkbox" value="Среднее общее">
+                Среднее общее
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" value="Среднее профессиональное">
+                Среднее профессиональное
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" value="Высшее">
+                Высшее
+              </label>
+            </div>
+          </fieldset>
+
+          <label for="social">Ссылка на соц. сети</label>
+          <input type="url" id="social" required>
+
+          <label for="desc">Ваш опыт</label>
+          <textarea name="desc" autocomplete="off" id="desc" cols="30" rows="10"
+            placeholder="Расскажите о себе"></textarea>
+
+          <button type="reset">Сбросить</button>
+          <button type="submit">Отправить</button>
+
+        </form>
+      </section>
+
+      <section id="req" class="req">
+        <h2>Дополнительные требования</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi <strong>iure repellendus harum
+            laborum facilis</strong> fuga totam recusandae, eaque iste voluptas error libero quam vitae eligendi
+          perspiciatis fugit veniam distinctio velit sed qui nobis adipisci unde. Quae tempora magni <a
+            href="">architecto</a> possimus deserunt dolorum, voluptatum veniam iure impedit sed cupiditate, sit
+          repellendus ipsum placeat magnam quibusdam, perferendis iusto natus facere fugit. Ipsam tempore aliquid
+          inventore officiis quia, similique, consequatur harum explicabo, commodi laborum dolores est dignissimos quasi
+          assumenda rem? Delectus at voluptatum voluptatem nemo officia labore. Eius officiis sunt quod! Quisquam
+          dolorum, fuga <em>quidem magni voluptatem praesentium</em> necessitatibus quod numquam repudiandae?</p>
+      </section>
+
+      <section class="gallery">
+        <div class="wrapper">
+          <div class="gallery-box box1">
+            <img src="images/1.jpg">
+          </div>
+          <div class="gallery-box box2">
+            <img src="images/2.jpg">
+          </div>
+          <div class="gallery-box box3">
+            <img src="images/3.jpg">
+          </div>
+          <div class="gallery-box box4">
+            <img src="images/4.jpg">
+          </div>
+          <div class="gallery-box box5">
+            <img src="images/5.jpeg">
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="map">
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a
+            href="https://yandex.ru/maps/?ll=44.378928%2C54.714356&utm_medium=mapframe&utm_source=maps&z=6.75"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe
+            src="https://yandex.ru/map-widget/v1/?ll=44.378928%2C54.714356&utm_source=ntp_chrome&z=6.75" width="100%"
+            height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+      </section> -->
+    </div>
+
+
+  </main>
+  <footer>
+    <div class="container row">
+      <div class="logo">
+        Стажировки в <strong>IT</strong>
+      </div>
+      <div class="footer-text">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi aliquid totam excepturi placeat. Mollitia,
+          amet
+          odit error exercitationem ullam quisquam, voluptatem quis laboriosam quia dolores pariatur, dignissimos totam
+          id
+          eius!</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
